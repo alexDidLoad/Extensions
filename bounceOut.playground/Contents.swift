@@ -1,6 +1,8 @@
 import UIKit
 import PlaygroundSupport
 
+/* This extension uses animation to scale down the UIView over a specified number of seconds until it disappears*/
+
 extension UIView {
     
     func bounceOut(duration: TimeInterval) {
